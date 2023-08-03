@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <img src="lemonLogo.jpg" alt="img-fluid">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+</head>
+<body>
+    <script src="bootstrap.bundle.min.js"></script>
+    <nav>
+        <a class="btn btn-primary" href="indexLemon.html" role="button"> Home </a>
+    </nav>
+    <main>
+        <h1>Booking a Table</h1>
+        <form method="POST">
+         <fieldset id="size">
+            <label>
+                <input type="radio" name="size" value="2"> 2 Person
+            </label>
+            <label>
+                <input type="radio" name="size" value="4" checked> 4 Person
+            </label>
+            <label>
+                <input type="radio" name="size" value="6"> 6 Person
+            </label>
+            
+         </fieldset>
+         <fieldset id="location">
+            <label>
+                 <input type="radio" value="Indoor" name="location" > Indoor
+            </label>
+            <label>
+                <input type="radio" value="Outdoor" name="location" > Outdoor
+            </label>
+         </fieldset>   
+         <button type="submit" class="btn btn-primary">Book a Table</button>
+        </form>
+    </main>
+    
+</body>
+</html>
